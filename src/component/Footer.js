@@ -3,16 +3,16 @@ import Payment from "../assets/img/Payment.png";
 
 const Footer = () => {
   return (
-    <div className='flex flex-col align-center gap-4 px-32 py-8 w-auto h-[494px] absolute'>
+    <div className='flex flex-col align-center gap-4 px-32 py-8 w-auto h-[494px]'>
         <div className='flex flex-row'>
                 <p className="border border-[#EFF1F1] w-[1152px] h-0"></p>
         </div>
-        <div className='flex flex-row justify-between align-start gap-12 pt-8'>
+        <div className='flex flex-col lg:flex-row justify-between align-start items-center gap-2 lg:gap-12 pt-8'>
             <div className='flex flex-col align-start gap-6 w-[258px] h-[254px]'>
                 <h1 className='text-2xl font-normal text-[#FF8A00]'>Smart Homes</h1>
                 <p className='text-base font-normal'>Digital Valley, 4th Floor Menara Bandung, Jl. Gegerkalong Hilir No.47, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152 info@smarthomes.com</p>
             </div>
-            <div className='flex flex-row align-start gap-12 w-[448px] h-[270px]'>
+            <div className='flex flex-col lg:flex-row items-center lg:items-start align-start gap-12 w-[448px] h-[270px]'>
                 <div className='flex flex-col align-start gap-6 w-[200px] h-[270px]'>
                     <h1 className='text-2xl text-[#1E1E1E] font-normal'>Produk Kami</h1>
                     <ul>
@@ -33,7 +33,6 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            
         </div>
         <div className='flex flex-row'>
             <p className="border border-[#EFF1F1] w-[1152px] h-0"></p>

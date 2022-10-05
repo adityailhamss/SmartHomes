@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row align-center'>
             <NavLink
-            to={"/"}
+            to={"/Contact"}
               className="py-4 px-6 tracking-widest"
               style={(isActive) => ({
                 color: isActive.isActive ? "#FF8A00" : "#616364",
