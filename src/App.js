@@ -5,6 +5,7 @@ import Contact from './component/Contact';
 import HomePage from "./component/HomePage";
 import TentangKami from './component/TentangKami';
 import PanelSurya from './component/PanelSurya';
+import InternetService from './component/InternetService';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path = "/TentangKami" element={<TentangKami/>}/>
           <Route path = "/Contact" element={<Contact/>}/>
           <Route path = "/PanelSurya" element={<PanelSurya/>}/>
+          <Route path = "/InternetService" element={<InternetService/>}/>
         </Routes>
       <Footer/>
     </Router>
