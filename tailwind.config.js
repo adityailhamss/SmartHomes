@@ -6,6 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
+        'image-tk' : "url('../public/assets/img/tentangKami1.png')",
+        'image-ps' : "url('../src/assets/img/img13.png')",
         'image-6' : "url('../public/assets/img/image6.png')",
         'image-9' : "url('../public/assets/img/image9.png')",
         'Slider-1' : "url('../public/assets/img/Slider1.png')",

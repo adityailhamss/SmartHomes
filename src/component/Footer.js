@@ -3,9 +3,9 @@ import Payment from "../assets/img/Payment.png";
 
 const Footer = () => {
   return (
-    <div className='flex flex-col align-center gap-4 px-32 py-8 w-auto h-[494px]'>
+    <div className='flex flex-col align-center gap-4 px-32 py-8 w-auto h-auto lg:h-[494px]'>
         <div className='flex flex-row'>
-                <p className="border border-[#EFF1F1] w-[1152px] h-0"></p>
+                <p className="border border-[#EFF1F1] w-[1280px] h-0"></p>
         </div>
         <div className='flex flex-col lg:flex-row justify-between align-start items-center gap-2 lg:gap-12 pt-8'>
             <div className='flex flex-col align-start gap-6 w-[258px] h-[254px]'>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex flex-row'>
-            <p className="border border-[#EFF1F1] w-[1152px] h-0"></p>
+            <p className="border border-[#EFF1F1] w-[1280px] h-0"></p>
         </div>
         <div className='flex flex-row justify-between align-center gap-64'>
             <h1 className='text-lg font-normal text-[#1E1E1E]'>© 2022, All rights reserved</h1>

@@ -53,7 +53,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row align-center'>
             <NavLink
-            to={"/"}
+            to={"/PanelSurya"}
               className="py-4 px-6 tracking-widest"
               style={(isActive) => ({
                 color: isActive.isActive ? "#FF8A00" : "#616364",
@@ -88,7 +88,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row pl-12'>
               <img src={Profile} alt=""/>
-              <button className='flex flex-col pt-2'>
+              <button>
               <img src={Down} alt=""/>
               </button>
             </div>

@@ -47,7 +47,7 @@ function HomePage() {
     <h1 className='font-Poppins font-medium text-[32px] leading-[48px] text-center mt-[40px] '>ProdukUnggulan</h1>
 
 
-    <div className='flex flex-col gap-[84px]'>
+    <div className='flex flex-col gap-[84px] items-center'>
     <div className='flex flex-col items-center lg:flex-row gap-16'>
          <div className='flex flex-col p-[16px] gap-2 w-[366.67px] h-[396px] bg-white border-solid border-[1px] border-[#EFF1F1] rounded-2xl'>
             <img src='assets/img/image1.png'/>
