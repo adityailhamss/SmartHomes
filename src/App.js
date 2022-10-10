@@ -6,12 +6,13 @@ import HomePage from "./component/HomePage";
 import TentangKami from './component/TentangKami';
 import PanelSurya from './component/PanelSurya';
 import InternetService from './component/InternetService';
+import TestNavbar from './component/testNavbar';
 
 
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <TestNavbar/>
         <Routes>
           <Route path = "/" element={<HomePage/>}/>
           <Route path = "/TentangKami" element={<TentangKami/>}/>
@@ -21,6 +22,8 @@ function App() {
         </Routes>
       <Footer/>
     </Router>
+
+    
   );
 }
 

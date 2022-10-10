@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import Next from "../assets/img/next.png";
 import Back from '../assets/img/Group 26.png';
-import Cover from '../assets/img/cover.png';
+// import Cover from '../assets/img/cover.png';
 import Is1 from '../assets/img/is1.png';
 import Is2 from '../assets/img/is2.png';
 import Is3 from '../assets/img/is3.png';
@@ -39,9 +39,16 @@ function InternetService() {
         <div className='flex flex-row py-4'>
             <p className="border border-[#EFF1F1] w-[1441px] h-0"></p>
         </div>
-        <div >
+        {/* <div >
             <img src={Cover} className="w-auto h-auto "/>
+        </div> */}
+        <div className='bg-image-is w-[370px] h-[500px] lg:w-[1441px] lg:h-[547px] pt-2'>
+        <div className='flex flex-col items-center lg:items-start gap-6 pl-2 lg:pl-[122px] pt-[105px]'>
+            <h1 className='font-Poppins font-medium text-2xl leading-9 text-[#ffffff]'>Tentang Kami</h1>
+            <p className='font-Poppins font-light text-2xl leading-[48px] text-[#ffffff] w-auto h-auto lg:w-[506px] lg:h-[144px]'>Smart Homes offer a better lifestyle by generating clean energy, cut monthly budgets, and give an easy to operate everyday household item.</p>
+            <button className='w-[300px] h-[50px] lg:w-[318px] lg:h-[56px] bg-[#FF8A00] rounded-sm items-center font-Poppins font-medium text-base leading-6 text-white '>HUBUNGI CS SMART HOMES</button>
         </div>
+    </div>
         <div className="py-12 text-center">
             <h1 className="text-3xl lg:text-5xl text-[#616364]">Keunggulan Iconnect</h1>
         </div>
