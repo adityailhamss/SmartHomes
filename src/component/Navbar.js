@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from "../assets/logo/Logo.png";
 import Cart from "../assets/img/Group 2.png";
 import Profile from "../assets/img/Ellipse 2.png";
@@ -6,7 +6,9 @@ import Down from "../assets/img/iconDown.png";
 import { NavLink } from "react-router-dom";
 
 
+
 const Navbar = () => {
+
   return (
     <div className='flex flex-row pl-32 py-6 gap-11'>
         <div className='w-[106px] h-[54px]'>
@@ -82,7 +84,7 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row align-center gap-1'>
                 <div className='flex flex-col align-start gap-1'>
-                  <p className='text-xs text-[#1E1E1E]'>Check Out</p>
+                  <button className='text-xs text-[#1E1E1E]'>Check Out</button>
                   <p className='text-xs text-[#FF8A00]'>Rp. 3.670.000</p>
                 </div>
             </div>

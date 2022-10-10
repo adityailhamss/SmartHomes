@@ -73,7 +73,7 @@ function PanelSurya() {
         <h1 className='text-3xl lg:text-5xl font-normal text-center text-[#616364] w-[360px] h-auto lg:w-[424px] lg:h-[126px]'>Benefit SmartHome Panel Surya</h1>
         <div className='flex flex-col lg:flex-row pl-14 lg:pl-0 items-start gap-8 w-auto h-auto lg:w-[1060px] lg:h-[232px]'>
             <div className='flex flex-col justify-center items-center gap-6 border rounded-3xl bg-[#EFF1F1] border-[#C5C7C8] w-[241px] h-[232px]'>
-                <p className='text-6xl font-normal'>_+ 50%</p>
+                <p className='text-6xl font-normal'>± 50%</p>
                 <p className='text-center text-2xl font-normal text-[#616364]'>Hemat Biaya</p>
             </div>
             <div className='flex flex-col justify-center items-center gap-6 border rounded-3xl bg-[#EFF1F1] border-[#C5C7C8] w-[241px] h-[232px]'>
