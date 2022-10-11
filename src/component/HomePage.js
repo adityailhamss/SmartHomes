@@ -15,29 +15,29 @@ function HomePage() {
     <div className="px-10 py-20 flex flex-col gap-20 lg:gap-40">
     <div className='flex flex-col gap-5'>
       <Slider {...settings}>
-        <div className='bg-Slider-1 w-full h-[507px]'>
-            <div className='flex flex-col gap-6 w-[506px] h-[344px] mt-[70px] ml-[102px]'>
+        <div className='bg-Slider-1 w-[370px] h-[500px] lg:w-auto lg:h-[547px]'>
+            <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[344px] lg:mt-[70px] lg:ml-[102px]'>
             <p className='font-Poppins font-medium text-[48px] leading-[72px] text-white'>Kendali Dalam Satu Genggaman</p>
             <p className='font-Poppins font-normal text-2xl leading-9 text-white'>Sistem solar panel yang menggunakan matahari sebagai satu-satunya sumber energi dengan memanfaatkan baterai</p>
             <button className='lg:w-[318px] lg:h-[56px] bg-[#FF8A00] rounded-sm items-center font-Poppins font-medium text-base leading-6 text-white '>PESAN SEKARANG</button> 
         </div>
         </div>
-        <div className='bg-Slider-2 w-full h-[507px]'>
-            <div className='flex flex-col gap-6 w-[506px] h-[344px] mt-[70px] ml-[102px]'>
+        <div className='bg-Slider-2 w-[370px] h-[500px] lg:w-auto lg:h-[547px]'>
+            <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[344px] lg:mt-[70px] lg:ml-[102px]'>
             <p className='font-Poppins font-medium text-[48px] leading-[72px] text-white'>Pannel Surya</p>
             <p className='font-Poppins font-normal text-2xl leading-9 text-white'>Sistem solar panel yang menggunakan matahari sebagai satu-satunya sumber energi dengan memanfaatkan baterai</p>
             <button className='lg:w-[318px] lg:h-[56px] bg-[#FF8A00] rounded-sm items-center font-Poppins font-medium text-base leading-6 text-white '>DAPATKAN PENAWARAN</button> 
         </div>
         </div>
-        <div className='bg-Slider-3 w-full h-[507px]'>
-            <div className='flex flex-col gap-6 w-[506px] h-[344px] mt-[70px] ml-[102px]'>
+        <div className='bg-Slider-3 w-[370px] h-[500px] lg:w-auto lg:h-[547px]'>
+            <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[344px] lg:mt-[70px] lg:ml-[102px]'>
             <p className='font-Poppins font-medium text-[48px] leading-[72px] text-white'>Internet Service</p>
             <p className='font-Poppins font-normal text-2xl leading-9 text-white'>ICONNET Bangkit Bersatu Untuk Indonesia, dengan menjunjung tinggi nilai-nilai Nasionalisme, ICONNET berniat memberikan yang terbaik untuk masyarakat Indonesia</p>
             <button className='lg:w-[318px] lg:h-[56px] bg-[#FF8A00] rounded-sm items-center font-Poppins font-medium text-base leading-6 text-white '>DAPATKAN PENAWARAN</button> 
         </div>
         </div>
-        <div className='bg-Slider-4 w-full h-[507px]'>
-            <div className='flex flex-col gap-6 w-[506px] h-[344px] mt-[70px] ml-[102px]'>
+        <div className='bg-Slider-4 w-[370px] h-[500px] lg:w-auto lg:h-[547px]'>
+            <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[344px] lg:mt-[70px] lg:ml-[102px]'>
             <p className='font-Poppins font-medium text-[48px] leading-[72px] text-white'>Tentang Kami</p>
             <p className='font-Poppins font-normal text-2xl leading-9 text-white'>Smart Homes offer a better lifestyle by generating clean energy, cut monthly budgets, and give an easy to operate everyday household item.</p>
             <button className='lg:w-[318px] lg:h-[56px] bg-[#FF8A00] rounded-sm items-center font-Poppins font-medium text-base leading-6 text-white '>HUBUNGI CS SMARTHOMES</button> 
@@ -94,7 +94,7 @@ function HomePage() {
     </div> 
 </div>
 
-    <div className='bg-image-6 lg:bg-image-6 lg:w-full lg:h-[547px] mt-[133px]'>
+    <div className='bg-image-6 w-[370px] h-[500px] lg:w-auto lg:h-[547px] mt-[133px]'>
         <div className='flex flex-col gap-6 lg:w-[506] lg:h-[391] left-32 top-[1780px] lg:ml-[100px] lg:mt-[78px]'>
         <p className='font-Poppins font-medium text-[58px] leading-[87px] text-[#1E1E1E]'>Gratis<br/> Pengiriman &<br/> Pemasangan</p>
         <p className='font-Poppins font-light text-[32px] leading-[48px] text-[#616364]'>Area Jabodetabek</p>
@@ -104,7 +104,7 @@ function HomePage() {
 
     <h1 className='font-Poppins font-medium text-[32px] leading-[48px] text-center mt-[107px] '>Koleksi Lainya</h1>
 
-<div className='flex flex-col-reverse lg:flex-row gap-10 mt-[90px]'>
+<div className='flex flex-col lg:flex-row gap-10 lg:ml-[120px] mt-[90px]'>
     <img src='assets/img/image7.png'/>
     <div className='flex flex-col gap-10 lg:mt-[100px]'>
         <p className='font-Poppins font-medium text-[52px] leading-[78px]'>Panel Surya dari PLN</p>
@@ -113,7 +113,7 @@ function HomePage() {
     </div>
 </div>
 
-<div className='flex flex-col lg:flex-row gap-[48px] mt-[108px]'>
+<div className='flex flex-col-reverse lg:flex-row gap-[48px] lg:ml-[120px] mt-[108px]'>
     <div className='flex flex-col gap-10'>
     <p className='font-Poppins font-medium text-[52px] leading-[78px]'>Internet Broadband<br/> dari Iconnect</p>
         <p className='font-Poppins font-normal text-2xl leading-9'>We hope to help Sustainable Development Goals<br/> No. 7 which is affordable and clean energy with<br/> improving the energy available in Indonesia by<br/> disrupting real estate business with solar power<br/> that generates clean energy.</p>
@@ -122,8 +122,8 @@ function HomePage() {
     <img src='assets/img/image8.png'/>
 </div>
 
-<div className='bg-image-9 w-full lg:h-[547px] mt-[247px]'>
-    <div className='flex flex-col gap-6 w-[506px] h-[422px] left-[121px] mt-[51px] ml-[120px]'>
+<div className='bg-image-9 w-[370px] h-[500px] lg:w-auto lg:h-[547px] mt-[247px]'>
+    <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[422px] lg:left-[121px] lg:mt-[51px] lg:ml-[120px]'>
         <p className='font-Poppins font-medium text-2xl leading-9 text-[#616364]'>Benefit</p>
         <p className='font-Poppins font-medium text-[58px] leading-[87px] text-[#1E1E1E]'>One Call Technicial</p>
         <p className='font-Poppins font-light text-[32px] leading-[48px] text-[#1E1E1E]'>Ada Problem? Teknisi Kami Langsung Datang</p>
