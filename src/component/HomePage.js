@@ -94,7 +94,7 @@ function HomePage() {
     </div> 
 </div>
 
-    <div className='bg-image-6 w-[370px] h-[500px] lg:w-auto lg:h-[547px] mt-[133px]'>
+    <div className='bg-image-6  w-fulls lg:h-[547px] mt-[133px]'>
         <div className='flex flex-col gap-6 lg:w-[506] lg:h-[391] left-32 top-[1780px] lg:ml-[100px] lg:mt-[78px]'>
         <p className='font-Poppins font-medium text-[58px] leading-[87px] text-[#1E1E1E]'>Gratis<br/> Pengiriman &<br/> Pemasangan</p>
         <p className='font-Poppins font-light text-[32px] leading-[48px] text-[#616364]'>Area Jabodetabek</p>
