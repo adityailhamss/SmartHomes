@@ -122,7 +122,7 @@ function HomePage() {
     <img src='assets/img/image8.png'/>
 </div>
 
-<div className='bg-image-9 w-[370px] h-[500px] lg:w-auto lg:h-[547px] mt-[247px]'>
+<div className='bg-image-9 w-auto h-[500px] lg:w-auto lg:h-[547px] mt-[247px]'>
     <div className='flex flex-col gap-6 lg:w-[506px] lg:h-[422px] lg:left-[121px] lg:mt-[51px] lg:ml-[120px]'>
         <p className='font-Poppins font-medium text-2xl leading-9 text-[#616364]'>Benefit</p>
         <p className='font-Poppins font-medium text-[58px] leading-[87px] text-[#1E1E1E]'>One Call Technicial</p>
