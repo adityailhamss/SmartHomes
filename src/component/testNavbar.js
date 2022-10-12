@@ -81,7 +81,7 @@ function TestNavbar() {
             </NavLink>
           </li>
           <div className='flex flex-row justify-center alignt-center gap-1.5 py-4'>
-            <div className='w-[32px] h-[32px]'>
+            {/* <div className='w-[32px] h-[32px]'>
               <img src={Cart} alt=""/>
             </div>
             <div className='flex flex-row align-center gap-1'>
@@ -89,7 +89,7 @@ function TestNavbar() {
                   <button className='text-xs text-[#1E1E1E]'>Check Out</button>
                   <p className='text-xs text-[#FF8A00]'>Rp. 3.670.000</p>
                 </div>
-            </div>
+            </div> */}
             <div className='flex flex-row pl-12'>
               <img src={Profile} alt=""/>
               <button>

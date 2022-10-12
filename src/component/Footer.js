@@ -13,10 +13,10 @@ const Footer = () => {
                 <p className='text-base font-normal'>Digital Valley, 4th Floor Menara Bandung, Jl. Gegerkalong Hilir No.47, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152 info@smarthomes.com</p>
             </div>
             <div className='flex flex-col lg:flex-row lg:items-start gap-12 w-[448px] h-[270px]'>
-                <div className='flex flex-col items-center lg:items-start gap-6 w-[200px] h-[270px]'>
+                <div className='flex flex-col gap-6 w-[200px] h-[270px]'>
                     <h1 className='text-2xl text-[#1E1E1E] font-normal'>Produk Kami</h1>
                     <ul>
-                        <li className='text-base text-[#1E1E1E] font-normal'>Smart Door Lock</li>
+                        <li className='text-base text-[#1E1E1E] font-normal text-left'>Smart Door Lock</li>
                         <li className='text-base text-[#1E1E1E] font-normal'>Smart Bulb</li>
                         <li className='text-base text-[#1E1E1E] font-normal'>Smart LED</li>
                         <li className='text-base text-[#1E1E1E] font-normal'>Smart CCTV</li>
