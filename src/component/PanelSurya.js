@@ -24,7 +24,7 @@ function PanelSurya() {
             <div className='w-[16px] h-[16px]'>
             <img src={Next} alt=""/>
             </div>
-            <p className='text-sm text-[#1E1E1E] font-normal'>Tentang Kami</p>
+            <p className='text-sm text-[#1E1E1E] font-normal'>Panel Surya</p>
         </div>
     </div>
     <div className='flex flex-row justify-center'>
