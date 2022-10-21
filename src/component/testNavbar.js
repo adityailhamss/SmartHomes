@@ -90,12 +90,12 @@ function TestNavbar() {
                   <p className='text-xs text-[#FF8A00]'>Rp. 3.670.000</p>
                 </div>
             </div> */}
-            <div className='flex flex-row pl-12'>
+            {/* <div className='flex flex-row pl-12'>
               <img src={Profile} alt=""/>
               <button>
               <img src={Down} alt=""/>
               </button>
-            </div>
+            </div> */}
         </div>
           </ul>
           <div className="ml-auto my-auto lg:hidden inline-block w-[2rem] relative hover:cursor-pointer">
